@@ -71,13 +71,13 @@ A Python script designed to automate the process of organizing and cleaning What
    - Ensure that your WhatsApp chat ZIP files are located in the following directory:
 
      ```
-     /private/var/mobile/Library/Mobile Documents/com~apple~CloudDocs/SURCA/Function_Clean
+     /private/var/mobile/Library/Mobile Documents/com~apple~CloudDocs/
      ```
 
    - If the above path does not exist, the script will attempt to use the local Pyto Documents directory:
 
      ```
-     Pyto/Documents/SURCA/Function_Clean
+     Pyto/Documents/
      ```
 
    - Make sure the `SURCA/Function_Clean` directory exists in one of the above locations.
@@ -140,7 +140,7 @@ The script utilizes standard Python libraries for file operations, pattern match
 ### 2. Defining the Base Path
 
 ```python
-base_path = Path("/private/var/mobile/Library/Mobile Documents/com~apple~CloudDocs/SURCA/Function_Clean")
+base_path = Path("/private/var/mobile/Library/Mobile Documents/com~apple~CloudDocs/")
 ```
 
 - Sets the primary directory where the script looks for WhatsApp chat ZIP files.
@@ -194,7 +194,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
-For any questions or suggestions, please contact [your.email@example.com](mailto:your.email@example.com).
+For any questions or suggestions, please contact [untamed98x@gmail.com](mailto:untamed98x@gmail.com).
 
 ---
 
