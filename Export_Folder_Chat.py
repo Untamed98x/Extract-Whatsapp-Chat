@@ -18,17 +18,17 @@ def get_pyto_documents_dir():
         return None
 
 # Set path dasar
-base_path = Path("/private/var/mobile/Library/Mobile Documents/com~apple~CloudDocs/SURCA/Function_Clean")
+base_path = Path("Your Local Directory")
 
 # Cek apakah base_path ada dan dapat diakses
 if not base_path.exists():
     print(f"Path dasar tidak ditemukan: {base_path}")
     # Alternatif: Gunakan direktori lokal Pyto
-    base_path = get_pyto_documents_dir() / "SURCA" / "Function_Clean"
+    base_path = get_pyto_documents_dir() / "Local" / "Directory"
     print(f"Menggunakan direktori lokal Pyto: {base_path}")
     if not base_path.exists():
         print(f"Direktori lokal Pyto juga tidak ditemukan: {base_path}")
-        print("Pastikan direktori 'SURCA/Function_Clean' ada di Pyto Documents.")
+        print("Pastikan direktori '' ada di Pyto Documents.")
         exit(1)
 
 # Pastikan Pyto memiliki izin untuk mengakses direktori ini
